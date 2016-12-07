@@ -15,6 +15,7 @@ public class P001 {
 		long sumOfFiveMulti = ((countMultiFive * (countMultiFive + 1L)) / 2L) * 5L;
 		long countMultiFiffty = number / 15L;
 		long sumOfFifftyMulti = ((countMultiFiffty * (countMultiFiffty + 1L)) / 2L) * 15L;
+
 		return (sumOfThreeMulti + sumOfFiveMulti - sumOfFifftyMulti);
 		
 	}
