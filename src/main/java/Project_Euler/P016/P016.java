@@ -1,3 +1,8 @@
+/**
+ * @author vinod<vinodpal458@gmail.com
+ */
+package Project_Euler.P016;
+
 import java.math.BigInteger;
 
 /*2^15 = 32768 and the sum of its digits is 3 + 2 + 7 + 6 + 8 = 26.
