@@ -46,11 +46,10 @@ public class P021 {
 	}
 	
 	private static int getSumOfDivisors(int num){
-		int sumOfDivisors = 0;
-		if(num==1)return 1;
-		for(int n=1 ; n<=(num/2);++n){
+		int sumOfDivisors = 1;
+		for(int n=2 ; n<=(int)Math.sqrt(num);++n){
 			if((num%n)==0)
-				sumOfDivisors+=n;
+				sumOfDivisors+=(num/n)+n;
 		}
 		return sumOfDivisors;
 	}
