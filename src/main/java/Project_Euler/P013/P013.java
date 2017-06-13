@@ -8,11 +8,6 @@ import java.io.FileNotFoundException;
 import java.io.FileReader;
 import java.io.IOException;
 import java.math.BigInteger;
-
-/**
- * @author vinod<vinod.pal@nanobi.in(EmpId:1112)
- * @organization NanoBi Analytics
- */
 public class P013 {
 	public static void main(String[] args) throws IOException {
 		/*BufferedReader br = null;
