@@ -24,13 +24,9 @@ import java.util.Comparator;
  * What is the total of all the name scores in the file?
  * 
  */
-/*
- * public class P022 {
- * 
- * }
- */
 
-public class MinHeap {
+
+public class P022 {
 	/*int[] minHeap = null;
 	int pos = 0;
 
@@ -107,7 +103,7 @@ public class MinHeap {
 			System.out.print("  " + m.getMin());
 		}*/
 		String [][]list = readFile();
-		MinHeap m = new MinHeap();
+		P022 m = new P022();
 		
 		int arr[][] = { { 2, 6, 12, 34 }, { 1, 9, 20, 1000 }, { 23, 34, 90, 2000 } };
 		m.createSortedRecords(list);
